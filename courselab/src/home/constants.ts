@@ -150,6 +150,19 @@ export const courses: Course[] = [
             { name: 'Core Components', path: '/project/components', icon: 'Layers', difficulty: 'Intermediate' },
             { name: 'Fapshi Payments', path: '/project/payment', icon: 'Zap', difficulty: 'Advanced' }
         ]
+    },
+    {
+        id: 'howto',
+        name: 'React How-To Guides',
+        icon: 'BookOpen',
+        pages: [
+            { name: 'Simple Menu', path: '/howto/menu', icon: 'Menu', difficulty: 'Beginner' },
+            { name: 'Home Page', path: '/howto/home', icon: 'Layout', difficulty: 'Beginner' },
+            { name: 'Footer', path: '/howto/footer', icon: 'Box', difficulty: 'Beginner' },
+            { name: 'Side Bar', path: '/howto/sidebar', icon: 'Layout', difficulty: 'Intermediate' },
+            { name: 'Dark Mode Switcher', path: '/howto/darkmode', icon: 'Zap', difficulty: 'Intermediate' },
+            { name: 'Search Bar', path: '/howto/search', icon: 'Search', difficulty: 'Beginner' }
+        ]
     }
 ];
 

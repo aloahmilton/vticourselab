@@ -78,6 +78,7 @@ import { phpRoutes } from '../courses/PhpRoutes';
 import { mysqlRoutes } from '../courses/MysqlRoutes';
 import { githubRoutes } from '../courses/GithubRoutes';
 import { projectRoutes } from '../courses/ProjectRoutes';
+import { howToRoutes } from '../courses/HowToRoutes';
 import { useProgress } from '../components/useProgress';
 import { SettingsProvider } from '../contexts/SettingsContext';
 import { AuthProvider, useAuth } from '../contexts/AuthContext';
@@ -301,6 +302,7 @@ function HomeRoutes() {
             {mysqlRoutes}
             {githubRoutes}
             {projectRoutes}
+            {howToRoutes}
 
             <Route path="/search" element={<SearchPage />} />
             <Route path="/services" element={<Services />} />
